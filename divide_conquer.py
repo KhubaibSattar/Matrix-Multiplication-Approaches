@@ -38,6 +38,8 @@ import numpy as np
 #         print('The columns of matrix A is not equal to the rows of matrix B and hence matrix multiplication cannot be performed')
 
 def divide(matrix):
+    # THE COMMENTED OUT PARTS ARE USING NUMPY, TRYING TO IMPLEMENT IT MANUALLY TO IF I could FIX THE ERROR
+
     # R, C = np.shape(matrix)
     # R, C = matrix.shape
     R = len(matrix)
